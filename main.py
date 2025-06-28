@@ -1,4 +1,5 @@
 from src.data_preparation import load_wine_data, clean_data
+from src.model_training import train_random_forest
 
 # Carregar e limpar os dados
 df = load_wine_data()
@@ -31,3 +32,14 @@ plot_correlation_heatmap(df)
 plot_boxplots(df)
 
 print("\nGráficos salvos na pasta /results")
+
+from src.model_training import (
+    train_random_forest,
+    train_logistic_regression,
+    train_decision_tree
+)
+
+train_random_forest(df)
+train_logistic_regression(df)
+train_decision_tree(df)
+
