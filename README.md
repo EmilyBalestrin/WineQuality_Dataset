@@ -47,6 +47,26 @@ O projeto foi desenvolvido com **Python** e bibliotecas como `pandas`, `scikit-l
 
 ---
 
+## 📊 Visualizações do Dataset
+Esta seção apresenta algumas visualizações geradas a partir da análise exploratória do dataset de qualidade de vinhos.
+
+### Mapa de Calor das Correlações
+![correlation_heatmap](https://github.com/user-attachments/assets/a9abab1e-0a1b-4c2b-92d4-4e579aaf1518)
+
+### Importância das Variáveis (Random Forest)
+![feature_importances_rf](https://github.com/user-attachments/assets/1fb8e220-5632-4087-bac6-b19fda72302b)
+
+### Comparação de Desempenho dos Modelos
+![model_comparison_chart](https://github.com/user-attachments/assets/46db1168-559e-4742-ae80-35f3febb26cd)
+
+### Distribuição de Vinhos (Bons vs. Ruins)
+![good_quality_distribution](https://github.com/user-attachments/assets/c82685f6-b286-4ea4-938d-7e7aca449f3b)
+
+### Distribuição das Notas de Qualidade
+![quality_distribution](https://github.com/user-attachments/assets/588e2b3c-47cc-4163-96b3-f837d7a17223)
+
+---
+
 ## 📁 Estrutura do Projeto
 
 ```
