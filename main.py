@@ -13,3 +13,7 @@ print(df.info())
 
 print("\nEstatísticas descritivas:")
 print(df.describe())
+
+print("\nColunas lidas:")
+print(df.columns)
+
