@@ -59,6 +59,7 @@ WineQuality-Dataset/
 │ ├── evaluation.py
 │ ├── model_training.py
 │ └── visualization.py
+├── 105140 - Emily L. Balestrin - Relatório.pdf
 ├── main.py # Script principal
 ├── README.md
 └── requirements.txt # Bibliotecas utilizadas
