@@ -17,3 +17,17 @@ print(df.describe())
 print("\nColunas lidas:")
 print(df.columns)
 
+from src.visualization import (
+    plot_quality_distribution,
+    plot_good_quality_distribution,
+    plot_correlation_heatmap,
+    plot_boxplots
+)
+
+# Gerar gráficos
+plot_quality_distribution(df)
+plot_good_quality_distribution(df)
+plot_correlation_heatmap(df)
+plot_boxplots(df)
+
+print("\nGráficos salvos na pasta /results")
