@@ -2,6 +2,7 @@ from src.data_preparation import load_wine_data, clean_data
 from src.model_training import train_random_forest
 
 from src.evaluation import compare_models
+from src.evaluation import plot_comparison_chart
 
 # Reexecuta os modelos e coleta resultados para comparação
 from sklearn.model_selection import train_test_split
@@ -70,3 +71,5 @@ for name, model in models:
 
 compare_models(results)
 
+# Gerar gráfico comparativo
+plot_comparison_chart()
